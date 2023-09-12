@@ -1,0 +1,45 @@
+
+.fswb{
+    text-align: left;
+    justify-content: center;
+    margin: 100px 0 0 150px;
+    white-space: nowrap;
+    /* background-color: aqua; */
+}
+
+#main{
+    position: absolute;
+    font-size: 150px;
+    color: #ffffffee;
+    font-weight: 600;
+    text-shadow: 0 100px 100px 0 rgb(255, 255, 255);
+    text-transform: uppercase;
+    /* letter-spacing: 5px; */
+}
+
+.bawahan{
+    position: relative;
+    padding: 145px 0 0 10px;
+}
+
+.bawahan #satu{
+    letter-spacing: 9px;
+    color: #ffffff6a;
+    text-shadow: #ffffff;
+    text-transform: capitalize;
+}
+
+.bawahan #nama{
+    padding: 5px 0 0 ;
+    color: #ff55009d;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 12px;
+}
+/* .fswb{
+    font-size: small;
+    padding: 0 0 0 12px;
+    letter-spacing: 8px;
+} */
+
+

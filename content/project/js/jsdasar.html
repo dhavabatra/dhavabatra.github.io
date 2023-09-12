@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Dasar</title>
+    <link rel="stylesheet" href="./../../../assets/css/jsdasar.css">
+    <link rel="stylesheet" href="./../../../assets/css/nav.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav">
+                <div class="logo">
+                    <div>
+                        <a href="index.html">
+                            <div class="favicon">
+                                <span>DHAVA'S SITE</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <ul class="menu">
+                    <li><a href="./../../../index.html">Beranda</a></li>
+                    <li><a href="content/project/project.html">Project</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="content/auth/login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <div class="calculator">
+        <div class="output">
+            <!-- <input type="number" class="result" id="angka" readonly> -->
+          <span class="result" id="angka"></span>
+        </div>
+        <div class="buttons">
+          <button onclick="tampilkan('1')">1</button>
+          <button onclick="tampilkan('2')">2</button>
+          <button onclick="tampilkan('3')">3</button>
+          <button onclick="tampilkan('+')">+</button>
+          <button onclick="tampilkan('4')">4</button>
+          <button onclick="tampilkan('5')">5</button>
+          <button onclick="tampilkan('6')">6</button>
+          <button onclick="tampilkan('-')">-</button>
+          <button onclick="tampilkan('7')">7</button>
+          <button onclick="tampilkan('8')">8</button>
+          <button onclick="tampilkan('9')">9</button>
+          <button onclick="tampilkan('*')">*</button>
+          <button onclick="hapus()" class="bg-red">C</button>
+          <button onclick="tampilkan('0')">0</button>
+          <button onclick="hasil('')" class="bg-green">=</button>
+          <button onclick="tampilkan('/')">/</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../../../assets/js/jsdasar.js"></script>
+</body>
+</html>

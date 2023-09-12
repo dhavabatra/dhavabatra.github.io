@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bg.avif);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    backdrop-filter: blur(10px);
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: rgba(61, 61, 61, 0.571);
+    /* border-radius: 2%; */
+    margin: 6% auto;
+    /* margin-top: 10%; */
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    /* background-color: aqua; */
+    position: relative;
+    box-shadow: 0 0 20px 9px rgb(77, 77, 77);
+    border-radius: 30px;
+    text-align: center;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(42, 42, 42), rgb(212, 212, 212));
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    margin-bottom: 5px;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgb(42, 42, 42), rgb(212, 212, 212));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+    cursor: pointer;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    margin-top: 30px;
+    /* bottom: 65px; */
+    position: absolute;
+}
+
+.veriv{
+    text-align: center;
+    width: auto;
+    /* padding-top: 10px; */
+    color: rgb(114, 114, 114);
+    font-size: small;
+    bottom: auto;
+    /* margin-top: 100%; */
+}
+
+#login{
+    left: 50px;
+}
+
+#daftar{
+    left: 450px;
+}
+
+.video{
+    position: absolute;
+    justify-content: flex-end;
+    width: 50%;
+}

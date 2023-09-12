@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="./../../../assets/css/form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran Peserta Studi Independen 2023 <br>
+            PT Arkatama Multi Solusindo
+        </h1><br>
+
+        <form action="../../index.html">
+            <label for="nama">Nama Lengkap :</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="hp">No HP :</label><br>
+            <input type="text" id="hp" name="hp" required><br><br>
+
+            <div>
+                <label for="gender">Jenis Kelamin :</label><br>
+                <input type="radio" class="pointer" name="gender" value="Laki-laki">
+                <label for="laki_laki">Laki-laki</label><br>
+                <input type="radio" class="pointer" name="gender" value="Perempuan">
+                <label for="laki_laki">Perempuan</label>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="prodi">Prodi :</label><br>
+                <select name="prodi" id="prodi">
+                    <option class="pointer" value=""></option>
+                    <option class="pointer" value="ti">Teknik Informatika</option>
+                    <option class="pointer" value="si">Sistem Informasi</option>
+                    <option class="pointer" value="mi">Manajemen Informatika</option>
+                    <option class="pointer" value="trpl">Teknologi Rekayasa Perangkat Lunak</option>
+                    <option class="pointer" value="di">Bisnis Digital</option>
+                    <option class="pointer" value="lainnya">Lainnya</option>
+                </select>
+                <br><br>
+            </div>
+
+            <label for="hobi">Hobi :</label><br>
+            <div>
+                <input type="checkbox" class="pointer" value="Membaca">
+                <label for="membaca">Membaca</label><br>
+                <input type="checkbox" class="pointer" value="Memecahkan Puzzle">
+                <label for="puzzle">Memecahkan Puzzle</label><br>
+                <input type="checkbox" class="pointer" value="Kolektor">
+                <label for="kolektor">Kolektor</label><br>
+                <input type="checkbox" class="pointer" value="Melukis">
+                <label for="melukis">Melukis</label><br>
+                <input type="checkbox" class="pointer" value="Mendaki Gunung">
+                <label for="mendaki">Mendaki Gunung</label><br>
+                <input type="checkbox" class="pointer" value="Lainnya">
+                <label for="lainnya">Lainnya</label><br><br>
+            </div>
+
+            <label for="alamat">Alamat :</label><br>
+            <textarea name="alamat" id="alamat" cols="30" rows="3"></textarea><br><br>
+
+            <div>
+                <label for="foto">Foto Diri :</label><br>
+                <input type="file" class="pointer"><br><br>
+    
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+
+</html>
